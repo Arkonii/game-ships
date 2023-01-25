@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480" prefWidth="720" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.DifficultyController">
+    <children>
+        <Button fx:id="easy" layoutX="319.0" layoutY="169.0" mnemonicParsing="false" onAction="#easy" prefHeight="25.0" prefWidth="69.0" text="Łatwy" textAlignment="CENTER" AnchorPane.bottomAnchor="285.4" AnchorPane.leftAnchor="325.0" AnchorPane.rightAnchor="325.0" AnchorPane.topAnchor="169.0" />
+        <Button fx:id="normal" layoutX="319.0" layoutY="202.0" mnemonicParsing="false" onAction="#normal" text="Normalny" textAlignment="CENTER" AnchorPane.leftAnchor="325.0" AnchorPane.rightAnchor="325.0" />
+        <Button fx:id="hard" layoutX="319.0" layoutY="240.0" mnemonicParsing="false" onAction="#hard" prefHeight="25.0" prefWidth="69.0" text="Trudny" textAlignment="CENTER" AnchorPane.leftAnchor="325.0" AnchorPane.rightAnchor="325.0" />
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backDifficulty" text="←">
+            <font>
+                <Font size="9.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

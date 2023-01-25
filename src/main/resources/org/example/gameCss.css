@@ -1,0 +1,17 @@
+*{
+    -fx-base: #424242;
+}
+
+.ground-button{
+
+}
+.chose-ship-button{
+    -fx-background-color: #eb0909;
+    -fx-shape : "M 400 300 L 500 300 L 500 400 L 400 400 L 400 300";
+   /* -fx-font-size : 12pt;*/
+}
+.first-button{
+    -fx-shape : "M 400 300 L 500 300 L 500 400 L 400 400 L 400 300";
+    /*-fx-font-size : 12pt;*/
+    -fx-background-color: #039BE5;
+}

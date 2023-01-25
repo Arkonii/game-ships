@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480" prefWidth="720" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.LoginController">
+    <children>
+        <Button alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backLogin" text="←">
+
+            <font>
+                <Font name="Baskerville Old Face" size="9.0" />
+            </font>
+        </Button>
+        <TextField fx:id="emailField" layoutX="285.0" layoutY="215.0" promptText="e-mail" />
+        <Label layoutX="204.0" layoutY="166.0" prefHeight="18.0" prefWidth="384.0" text="Podaj adres e-mail na który zostanie przesłany wynik rozgrywki" textAlignment="CENTER" AnchorPane.leftAnchor="184.0" AnchorPane.rightAnchor="152.0" />
+        <Button layoutX="448.0" layoutY="215.0" mnemonicParsing="false" onAction="#switchToDifficulty" text="→" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</AnchorPane>
